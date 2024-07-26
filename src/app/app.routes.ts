@@ -7,13 +7,13 @@ export const routes: Routes = [
     {
         path:"add-customer",
         component:AddCustomerComponent
-    }
-    {
-        path:"add-hardware-item",
-        component:AddHardwareItemComponent
-    }
-    {
-        path:"rental-form",
-        component:RentalFormComponent
-    }
+    },
+    
+        {path:"add-hardware-item",
+        component:AddHardwareItemComponent},
+    
+    
+        {path:"rental-form",
+        component:RentalFormComponent}
+    
 ];
