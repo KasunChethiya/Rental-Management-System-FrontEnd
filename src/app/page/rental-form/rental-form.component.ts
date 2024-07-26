@@ -12,6 +12,9 @@ import Swal from 'sweetalert2';
   styleUrl: './rental-form.component.css'
 })
 export class RentalFormComponent{
+updateRental() {
+throw new Error('Method not implemented.');
+}
   public rentalObj ={
     rentId:"",
     rentalDate:"",
